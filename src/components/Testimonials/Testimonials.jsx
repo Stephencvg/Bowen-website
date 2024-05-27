@@ -1,8 +1,8 @@
 import './Testimonials.css';
 import next_icon from '../../assets/images/next-icon.png';
 import back_icon from '../../assets/images/back-icon.png';
-import user_1 from '../../assets/images/user-1.png';
-import user_2 from '../../assets/images/user-2.png';
+import user_1 from '../../assets/images/sayabout3.jpg';
+import user_2 from '../../assets/images/sayabout2.webp';
 import user_3 from '../../assets/images/user-3.png';
 import user_4 from '../../assets/images/user-4.png';
 import { useRef } from 'react';
@@ -48,7 +48,7 @@ const Testimonials = () => {
                   alt='user picture'
                 />
                 <div>
-                  <h3>William Jackson 1</h3>
+                  <h3>Peace Osereme</h3>
                   <span>Bowen University, Nigeria</span>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const Testimonials = () => {
                   alt='user picture'
                 />
                 <div>
-                  <h3>William Jackson 2</h3>
+                  <h3>Iyanuoluwa Oladeji</h3>
                   <span>Bowen University, Nigeria</span>
                 </div>
               </div>
@@ -88,7 +88,7 @@ const Testimonials = () => {
                   alt='user picture'
                 />
                 <div>
-                  <h3>William Jackson 3</h3>
+                  <h3>William Jackson</h3>
                   <span>Bowen University, Nigeria</span>
                 </div>
               </div>
@@ -108,7 +108,7 @@ const Testimonials = () => {
                   alt='user picture'
                 />
                 <div>
-                  <h3>William Jackson 4</h3>
+                  <h3>Bronse Mannie</h3>
                   <span>Bowen University, Nigeria</span>
                 </div>
               </div>

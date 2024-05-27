@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./About.css";
-import about_img from "../../assets/images/about.png";
+import about_img from "../../assets/images/graduation2.webp";
 import play_icon from "../../assets/images/play-icon.png";
 
 const About = ({ play }) => {
