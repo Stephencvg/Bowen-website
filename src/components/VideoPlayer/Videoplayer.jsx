@@ -13,7 +13,7 @@ export const Videoplayer = ({ play, setPlay }) => {
 
   return (
     <div className={`videoPlayer ${play ? "" : "hide"}`} ref={player} onClick={closePlayer}>
-      <video src={video} autoPlay controls></video>
+      <video src={video} controls autoPlay></video>
     </div>
   );
 };

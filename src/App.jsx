@@ -28,7 +28,8 @@ const App = () => {
         <Title subTitle="Contact Us" title="Get in Touch" />
         <Contact />
         <Footer />
-        <Videoplayer play={play} setPlay={setPlay} />
+        {play ?<Videoplayer play={play} setPlay={setPlay} /> : null }
+        
       </div>
     </div>
   );
